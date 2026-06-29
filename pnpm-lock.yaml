@@ -1102,8 +1102,8 @@ importers:
   internal-packages/clickhouse:
     dependencies:
       '@clickhouse/client':
-        specifier: head
-        version: 1.20.0-head.97f135e.1
+        specifier: 1.23.0-head.dbc2960.1
+        version: 1.23.0-head.dbc2960.1
       '@internal/tracing':
         specifier: workspace:*
         version: link:../tracing
@@ -1401,8 +1401,8 @@ importers:
   internal-packages/testcontainers:
     dependencies:
       '@clickhouse/client':
-        specifier: head
-        version: 1.20.0-head.97f135e.1
+        specifier: 1.23.0-head.dbc2960.1
+        version: 1.23.0-head.dbc2960.1
       '@opentelemetry/api':
         specifier: ^1.9.1
         version: 1.9.1
@@ -3352,11 +3352,8 @@ packages:
   '@clack/prompts@0.11.0':
     resolution: {integrity: sha512-pMN5FcrEw9hUkZA4f+zLlzivQSeQf5dRGJjSUbvVYDLvpKCdQx5OaknvKzgbtXOizhP+SJJJjqEbOe55uKKfAw==}
 
-  '@clickhouse/client-common@1.20.0-head.97f135e.1':
-    resolution: {integrity: sha512-mif7v/iKU2ntS+3CQ2yg7c9stYbriidhG+aztAlsbLO56tnLeRY49Pp3JF6mq7wnJWPS8U/Yv9xXckE833qFvA==}
-
-  '@clickhouse/client@1.20.0-head.97f135e.1':
-    resolution: {integrity: sha512-QN+A8ZsPaWWB1MERkQCBvA6DXmhedaPSVaQmsDzyovwUv6u/CrZbEifzUdBvdLLm04D/hBJ7bNGLCWLDCC2GEQ==}
+  '@clickhouse/client@1.23.0-head.dbc2960.1':
+    resolution: {integrity: sha512-6pcyXbdx393IvmnKx29Ap6yIcUAzRv127wf2VznSanT5vrGuJqiXoRKdqBrlokEkl+MdqzXzerSBdgM7grDb6A==}
     engines: {node: '>=16'}
 
   '@codemirror/autocomplete@6.4.0':
@@ -19736,11 +19733,7 @@ snapshots:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@clickhouse/client-common@1.20.0-head.97f135e.1': {}
-
-  '@clickhouse/client@1.20.0-head.97f135e.1':
-    dependencies:
-      '@clickhouse/client-common': 1.20.0-head.97f135e.1
+  '@clickhouse/client@1.23.0-head.dbc2960.1': {}
 
   '@codemirror/autocomplete@6.4.0(@codemirror/language@6.3.2)(@codemirror/state@6.2.0)(@codemirror/view@6.7.2)(@lezer/common@1.3.0)':
     dependencies:

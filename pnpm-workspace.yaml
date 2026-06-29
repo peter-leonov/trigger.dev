@@ -10,6 +10,7 @@ minimumReleaseAgeExclude:
   - "@trigger.dev/platform"
   - "next"
   - "@next/*"
+  - "@clickhouse/*"
   - "agentcrumbs"
   - "secure-exec"
   - "@secure-exec/*"
